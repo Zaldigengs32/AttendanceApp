@@ -63,11 +63,11 @@ const styles = StyleSheet.create({
     left: 150,
   },
   orangeBox: {
-    width: 115,
+    width: 170,
     height: 150,
     backgroundColor: '#bf851b',
     top: 0,
-    left: 250,
+    left: 260,
   },
   whiteArea: {
     flex: 1,
