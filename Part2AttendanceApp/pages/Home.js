@@ -1,4 +1,5 @@
 import { View, Text, StyleSheet, TouchableOpacity, ScrollView, FlatList } from "react-native";
+import { SafeAreaView } from "react-native-safe-area-context";
 import { MaterialIcons } from "@expo/vector-icons";
 
 const history = [
@@ -79,7 +80,7 @@ const Home = () => {
           <Text style={styles.subtitle}>Today's Class</Text>
           <Text>Mobile Programming</Text>
           <Text>08:00 - 10:00</Text>
-          <Text>Lab 3</Text>
+          <Text>Lab 114</Text>
 
           <TouchableOpacity style={styles.button}>
             <Text style={styles.buttonText}>CHECK IN</Text>
@@ -90,7 +91,7 @@ const Home = () => {
           <Text style={styles.subtitle}>Upcoming Class</Text>
           <Text>Database System</Text>
           <Text>10:30 - 12:30</Text>
-          <Text>Lab 2</Text>
+          <Text>Lab 111</Text>
         </View>
 
         <View style={styles.summaryCard}>
